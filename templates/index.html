@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+
+<body>
+    <div>
+        <img src="/static/assets/images/chatLoG.png" class="chatbot-btn" onclick="toggleChatbot()"></img>
+    </div>
+
+    <section class="chat-body" id="chatbot">
+        <div class="chat-container">
+            <header class="msger-header">
+                <div class="msger-header-title">
+                    <span class="title">Chat With Us</span>
+                    <button class="closeButton" onclick="toggleChatbot()">✖</button>
+                </div>
+            </header>
+            <main class="msger-chat">
+                <div class="msg left-msg">
+                    <div id="chatbox">
+                        <div class="botText">
+                            <span>Hi! How can I help you?</span>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <div class="msger-inputarea">
+                <input id="textInput" type="text" placeholder="Type a message..." autofocus>
+                <button id="buttonInput" onclick="sendButton()">Send</button>
+            </div>
+        </div>
+        <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    </section>
+</body>
+
+</html>

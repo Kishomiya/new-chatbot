@@ -1,0 +1,176 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you?",
+        "Is anyone there?",
+        "Hello",
+        "Hello!",
+        "Good day",
+        "Good morning!",
+        "Good evening",
+        "Hey there!",
+        "Good afternoon"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "general_advice",
+      "patterns": [
+        "How can I grow my social media presence?",
+        "Tips for social media growth",
+        "How to increase followers?",
+        "Best practices for social media",
+        "Social media advice",
+        "How to be successful on social media?"
+      ],
+      "responses": [
+        "To grow your social media presence, post consistently, engage with your audience, use relevant hashtags, collaborate with others, and create high-quality content.",
+        "Increasing followers involves interacting with your audience, posting at optimal times, and sharing engaging and valuable content.",
+        "Best practices for social media include being authentic, responding to comments and messages, and staying updated with trends and platform changes."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "This is the healthcare chatbot. Ask anything related to healthcare."
+      ]
+    },
+    {
+      "tag": "linkedin",
+      "patterns": [
+        "How to get more likes on LinkedIn?",
+        "Best practices for LinkedIn",
+        "Tips for LinkedIn networking",
+        "LinkedIn tips"
+      ],
+      "responses": [
+        "For LinkedIn, optimize your profile, share industry insights, and connect with professionals in your field."
+      ]
+    },
+    {
+      "tag": "instagram",
+      "patterns": [
+        "How to get more likes on Instagram?",
+        "Best practices for Instagram",
+        "How to go viral on Instagram?",
+        "Tips for Instagram networking",
+        "How to create a Instagram ad?",
+        "Instagram tips",
+        "Instagram advice",
+        "Creating Instagram ads"
+      ],
+      "responses": [
+        "To get more likes on Instagram, use high-quality images, engaging captions, relevant hashtags, and post during peak times.",
+        "Best practices for Instagram include using hashtags, engaging with followers, and posting regularly.",
+        "Going viral on Instagram often requires creating trending content, using popular sounds, and engaging with the Instagram community.",
+        "For Instagram, optimize your profile, share industry insights, and connect with professionals in your field.",
+        "To create a Instagram ad, use the Ads Manager, choose your objective, define your audience, set your budget, and create compelling visuals and copy."
+      ]
+    },
+    {
+      "tag": "tiktok",
+      "patterns": [
+        "How to get more likes on TikTok?",
+        "Best practices for TikTok",
+        "How to go viral on TikTok?",
+        "Tips for TikTok networking",
+        "How to create a TikTok ad?",
+        "TikTok tips",
+        "TikTok advice",
+        "Creating TikTok ads"
+      ],
+      "responses": [
+        "To get more likes on TikTok, use high-quality images, engaging captions, relevant hashtags, and post during peak times.",
+        "Best practices for TikTok include using hashtags, engaging with followers, and posting regularly.",
+        "Going viral on TikTok often requires creating trending content, using popular sounds, and engaging with the TikTok community.",
+        "For TikTok, optimize your profile, share industry insights, and connect with professionals in your field.",
+        "To create a TikTok ad, use the Ads Manager, choose your objective, define your audience, set your budget, and create compelling visuals and copy."
+      ]
+    },
+    {
+      "tag": "facebook",
+      "patterns": [
+        "How to get more likes on Facebook?",
+        "Best practices for Facebook",
+        "How to go viral on Facebook?",
+        "Tips for Facebook networking",
+        "How to create a Facebook ad?",
+        "Facebook advice",
+        "Creating Facebook ads"
+      ],
+      "responses": [
+        "To get more likes on Facebook, use high-quality images, engaging captions, relevant hashtags, and post during peak times.",
+        "Best practices for Facebook include using hashtags, engaging with followers, and posting regularly.",
+        "Going viral on Facebook often requires creating trending content, using popular sounds, and engaging with the Facebook community.",
+        "For Facebook, optimize your profile, share industry insights, and connect with professionals in your field.",
+        "To create a Facebook ad, use the Ads Manager, choose your objective, define your audience, set your budget, and create compelling visuals and copy."
+      ]
+    },
+    {
+      "tag": "content_creation",
+      "patterns": [
+        "How to create engaging content?",
+        "Content ideas for social media",
+        "Tips for content creation",
+        "How to make viral content?",
+        "Content creation strategies",
+        "Engaging content tips",
+        "Ideas for social media posts",
+        "Creating viral content",
+        "Effective content strategies"
+      ],
+      "responses": [
+        "Engaging content often includes high-quality visuals, interactive elements like polls and quizzes, and storytelling.",
+        "Content ideas include behind-the-scenes looks, user-generated content, tutorials, and trending challenges.",
+        "Effective content creation strategies involve planning your content calendar, analyzing what works best, and staying consistent with your brand voice."
+      ]
+    },
+    {
+      "tag": "social_media_marketing",
+      "patterns": [
+        "What is social media marketing?",
+        "How to use social media for marketing?",
+        "Tips for social media marketing",
+        "Best social media marketing strategies",
+        "Marketing on social media",
+        "Social media marketing tips",
+        "Effective social media campaigns",
+        "Marketing strategies on social media"
+      ],
+      "responses": [
+        "Social media marketing involves using social platforms to promote products, services, or content and engage with your audience.",
+        "To use social media for marketing, identify your target audience, choose the right platforms, create engaging content, and analyze your performance.",
+        "Effective social media marketing strategies include using analytics to guide your decisions, running targeted ads, and collaborating with influencers."
+      ]
+    },
+    {
+      "tag": "community_management",
+      "patterns": [
+        "How to manage a social media community?",
+        "Tips for community management",
+        "Best practices for managing online communities",
+        "Engaging with social media followers",
+        "Building a community on social media",
+        "Community management tips",
+        "How to engage with followers?",
+        "Strategies for community building",
+        "Online community management"
+      ],
+      "responses": [
+        "Managing a social media community involves responding to comments and messages, moderating content, and fostering a positive environment.",
+        "Tips for community management include being responsive, creating regular engagement opportunities, and listening to your audience's feedback.",
+        "Building a community on social media requires consistent interaction, providing value, and encouraging user-generated content and discussions."
+      ]
+    }
+  ]
+}
